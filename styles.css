@@ -52,8 +52,8 @@ img{
 }
 
 .card{
-    width: 240px;
-    height: 28vh;
+    width: 15rem;
+    height: auto;
     box-shadow: 0px 1px 13px rgba(0,0,0,0.1);
     cursor: pointer;
     transition: all 120ms;
@@ -66,6 +66,7 @@ img{
     border: 1px rgba(0,0,0,0.1) solid;
     flex-direction: column;
     margin-bottom: 5%;
+    margin-left: 5%;
 }
 
 @media screen and (max-width: 768px) {
